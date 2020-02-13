@@ -23,15 +23,15 @@ public class LuyaLinkedList {
 	  public void createStack()
 	  {
 		  		System.out.println("Team of players");
-				luyastack.push(Zhang.toString());  
+				luyastack.push(Zhang);  
 				System.out.println("player " + luyastack.getObject()+ " has entered the ice.");
-				luyastack.push(Wei.toString());
+				luyastack.push(Wei);
 				System.out.println("player " + luyastack.getObject()+ " has entered the ice.");
-				luyastack.push(Espinosa.toString());
+				luyastack.push(Espinosa);
 				System.out.println("player " + luyastack.getObject() + " has entered the ice.");
-				luyastack.push(Kulkarni.toString());
+				luyastack.push(Kulkarni);
 				System.out.println("player " + luyastack.getObject() + " has entered the ice.");
-				luyastack.push(Shihora.toString());
+				luyastack.push(Shihora);
 				System.out.println("player " + luyastack.getObject()+ " has entered the ice.");
 				System.out.println("This is your team: " + luyastack);
 	  }
